@@ -1,0 +1,9 @@
+body{
+	color: red;
+	background-color:darkred
+}
+
+table {
+    border: 100px solid green;
+    font: 60px "Comic Sans MS";
+}
