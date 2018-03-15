@@ -6,11 +6,26 @@ body{
 
 .header {
     text-align: center;
+    	background-color: #4f3825;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50x%;
+    width: 25%;
+}
+
+#Title{
+	background-color: #4f3825;
+	   text-align: center;
+}
+
+#linkDiv{
+	height: 10px;
+}
+
+#link{
+	position: absolute; right: 0px;
+	text-align: right;
 }
