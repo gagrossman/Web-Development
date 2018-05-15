@@ -1,4 +1,11 @@
-document.getElementById("addElement").addEventListener("click", addElement);
+document.getElementById("addElement").addEventListener("click", function(e){
+	console.log(e);
+	addElement();
+});
+
+document.getElementById("inputElement").addEventListener("input", function(e){
+	console.log(e);
+});
 
 function addElement() {
   console.log("Button Pressed");
